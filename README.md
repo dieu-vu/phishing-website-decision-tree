@@ -1,10 +1,10 @@
-# phishing-website-decision-tree
+# Phishing website analysis using decision tree
 A small workbook studying phishing website detection using the decision tree algorithm
 
 This is actually an assignment in my Maths & machine learning course at Metropolia. 
-As a newbie (again) in machine learning, I found this exercise of phishing website analytics using decision tree having interesting findings, so I shared this work to public.
+As a newbie (again) in machine learning, I found this exercise of phishing website analysis using decision tree gave me interesting findings, so I shared this work to public.
 
-From the data, we can draw a conclusion that if you spot the following signs in a websites, it's pretty high chance (around 90%) that the website is phishy.
+From the analysis on the given [data set](https://archive.ics.uci.edu/ml/datasets/phishing+websites), we can draw a conclusion that if you spot the following signs in a websites, it's pretty high chance (around 90%) that the website is phishy.
 
 - Check Whether the website uses HTTPS. 
   - If not, then check the web traffic if the website ranked among the top 100,000 of popularity.
